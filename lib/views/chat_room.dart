@@ -24,7 +24,7 @@ class _ChatRoomScreenState extends State<ChatRoomScreen> {
   TextEditingController messageController = TextEditingController();
 
   late Stream<QuerySnapshot> chatMessageStream;
-
+//thanh search đâu nó ở đâu :Vdklsajdklsajlk
   Widget chatMessageList() {
     return StreamBuilder(
       stream: chatMessageStream,
